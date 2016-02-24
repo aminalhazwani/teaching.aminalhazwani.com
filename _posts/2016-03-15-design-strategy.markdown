@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Design Strategy"
-date:   2016-02-23 23:31:31 +0100
+date:   2016-02-23 23:31:33 +0100
 week:   "2"
 day:    "Tue, March 15"
 time:   "10 AM - 12 PM"
