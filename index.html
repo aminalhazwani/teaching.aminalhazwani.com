@@ -1,0 +1,34 @@
+---
+layout: index
+---
+
+<div class="l-container">
+  <h1 class="u-push-top u-push-top-double@sm u-push-btm h2 h1@sm u-fw-light">Web and Media<br>Design Course</h1>
+  <h2 class="h3 u-fw-normal u-push-btm">Selvage distillery beard everyday carry, heirloom man braid freegan DIY asymmetrical kickstarter trust fund shoreditch pickled fanny pack.</h2 class="h3 u-fw-normal">
+
+  {% include navigation.html %}
+</div>
+
+<ul class="list-reset">
+  {% for post in site.posts reversed %}
+    <li {% if post.current == true %}class="list_item-current"{% endif %}>
+    <div class="l-container">
+      <div class="u-padd-top u-padd-btm list_item">
+        <div class="g-row">
+          <div class="g g-3@sm">
+            <p class="u-ibl u-blk@sm u-push-btm-quarter u-push-btm-none@sm u-push-top-4@sm">{{ post.day }}</p>
+            <span class="u-hide@sm">·</span>
+            <p class="u-ibl u-blk@sm u-push-btm-quarter u-push-btm-none@sm">{{ post.time }}</p>
+          </div>
+          <div class="g g-9@sm">
+            <h3 class="u-push-btm-quarter u-push-btm-none@sm u-push-top-2@sm u-c-primary">
+              <a class="list_link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+            <p class="u-push-btm-none">{{ post.meta }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </li>
+  {% endfor %}
+</ul>
