@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Web Typography"
-date:   2016-02-23 23:31:35 +0100
-week:   "2"
 day:    "Tue, March 22"
 time:   "10 AM - 12 PM"
 meta:   "Fingerstache man braid blue bottle intelligentsia sartorial asymmetrical echo park skateboard shabby chic, pop-up fixie aesthetic lumbersexual venmo pork belly."

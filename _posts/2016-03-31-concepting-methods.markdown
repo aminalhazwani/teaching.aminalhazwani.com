@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Concepting Methods"
-date:   2016-02-23 23:31:37 +0100
-week:   "2"
 day:    "Thu, March 31"
 time:   "11 AM - 1 PM"
 meta:   "Fingerstache man braid blue bottle intelligentsia sartorial asymmetrical echo park skateboard shabby chic, pop-up fixie aesthetic lumbersexual venmo pork belly."

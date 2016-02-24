@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Introduction to web development"
-date:   2016-02-23 23:31:32 +0100
-week:   "Week 1"
 day:    "Wed, March 9"
 time:   "10 AM - 12 PM"
 meta:   "Venmo shoreditch vegan, taxidermy slow-carb williamsburg mixtape distillery portland. Austin meditation four dollar toast tilde drinking vinegar. Echo park cray shoreditch ramps vice."

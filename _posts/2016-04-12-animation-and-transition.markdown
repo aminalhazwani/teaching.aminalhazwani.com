@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Animation and transition"
-date:   2016-02-23 23:31:42 +0100
-week:   "2"
 day:    "Tue, April 12"
 time:   "2 PM - 4 PM"
 meta:   "Fingerstache man braid blue bottle intelligentsia sartorial asymmetrical echo park skateboard shabby chic, pop-up fixie aesthetic lumbersexual venmo pork belly."

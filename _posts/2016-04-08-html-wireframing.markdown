@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "HTML Wireframing"
-date:   2016-02-23 23:31:40 +0100
-week:   "2"
 day:    "Tue, April 8"
 time:   "3 PM - 5 PM"
 meta:   "Fingerstache man braid blue bottle intelligentsia sartorial asymmetrical echo park skateboard shabby chic, pop-up fixie aesthetic lumbersexual venmo pork belly."

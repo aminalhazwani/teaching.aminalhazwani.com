@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Pitch final assignment - Part 1"
-date:   2016-02-23 23:31:51 +0100
-week:   "2"
 day:    "Thu, May 26"
 time:   "11 AM - 1 PM"
 meta:   "Fingerstache man braid blue bottle intelligentsia sartorial asymmetrical echo park skateboard shabby chic, pop-up fixie aesthetic lumbersexual venmo pork belly."
