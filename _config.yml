@@ -5,5 +5,5 @@ url: "http://teaching.aminalhazwani.com" # the base hostname & protocol for your
 permalink: pretty
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 future: bool
