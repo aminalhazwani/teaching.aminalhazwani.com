@@ -36,12 +36,14 @@ $space-double:       $space * 2;
 $font:      -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;
 $font-mono: "Roboto Mono", "Source Code Pro", Menlo, Consolas, "Liberation Mono", monospace;
 $fs:        1.6rem;
+$fs-sm:     1.4rem;
 $lh:        ($space / $fs);
 
-$fs-h1: 6.854rem;
-$fs-h2: 3.998rem;
-$fs-h3: 1.999rem;
-$fs-h4: 1.414rem;
+$fs-huge: 6.854rem;
+$fs-h1:   3.998rem;
+$fs-h2:   2.827rem;
+$fs-h3:   1.999rem;
+$fs-h4:   1.414rem;
 
 
 // Layout

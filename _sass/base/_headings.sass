@@ -6,23 +6,29 @@ h1, h2, h3, h4,
 .h1, .h2, .h3, .h4
   font-family: $font
   margin: 0 0 $space-half
-  font-weight: 500
 
 h1, .h1,
   font-size: $fs-h1
   line-height: 1.1
+  font-weight: 300
 
 h2, .h2,
   font-size: $fs-h2
   line-height: 1.1
+  font-weight: 400
 
 h3, .h3
   font-size: $fs-h3
   line-height: 1.3
+  font-weight: 500
 
 h4, .h4
   font-size: $fs-h4
   line-height: $lh
+
+.h-huge
+  font-size: $fs-huge
+  font-weight: 300
 
 +mq($bp-sm)
   .h1\@sm
@@ -33,6 +39,9 @@ h4, .h4
     font-size: $fs-h3
   .h4\@sm
     font-size: $fs-h4
+  .h-huge\@sm
+    font-size: $fs-huge
+    font-weight: 300
 
 +mq($bp-md)
   .h1\@md
