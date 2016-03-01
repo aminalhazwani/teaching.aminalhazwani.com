@@ -3,9 +3,8 @@ layout:  post
 title:   "Web Design 101 - Part 1"
 day:     "Tue, March 8"
 time:    "2 PM - 4 PM"
-meta:    "Let's dive in the magical world of web design. We are going to set the initial basis for the course with an introduction on the subject followed by policies and information of the course"
+meta:    "Let's dive in the magical world of web design. We set the initial basis for the course with an introduction on the subject followed by policies and information"
 current: true
-visible: true
 ---
 
 ## A Dao of Web Design [^1]
@@ -57,6 +56,10 @@ Designers usually want to control everything, something which is commonly know o
 
 > Responsive Web design is the approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation
 
+## Mobile first [^5]
+
+> Mobile forces you to focus: Mobile devices require software development teams to focus on only the most important data and actions in an application. You have to prioritize.
+
 
 
 
@@ -64,3 +67,5 @@ Designers usually want to control everything, something which is commonly know o
 [^2]: http://bradfrost.com/blog/web/responsive-web-design-missing-the-point/
 [^3]: http://bradfrost.com/blog/web/for-a-future-friendly-web/
 [^4]: https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/
+[^5]: http://www.lukew.com/ff/entry.asp?933
+
