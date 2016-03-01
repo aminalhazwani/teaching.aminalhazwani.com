@@ -9,7 +9,7 @@ layout: index
   {% include navigation.html %}
 </div>
 
-<ul class="list-reset">
+<ul class="list list-reset">
   {% for post in site.posts reversed %}
     <li {% if post.current == true %}class="list_item-current"{% endif %}>
     <div class="l-container">
