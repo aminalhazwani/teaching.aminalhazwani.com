@@ -16,3 +16,5 @@ meta:   "Websites are 90% typography and 90% white space. We see how to set the 
 - https://www.smashingmagazine.com/2012/07/one-more-time-typography-is-the-foundation-of-web-design/
 - https://www.robinrendle.com/essays/new-web-typography/
 - http://betterwebtype.com/
+- http://zellwk.com/blog/why-vertical-rhythms/
+- 
