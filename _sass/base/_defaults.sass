@@ -98,6 +98,7 @@ dd
 img
   -ms-interpolation-mode: bicubic
   vertical-align: bottom
+  max-width: 100%
 
 embed, object, iframe
   border: 0
@@ -153,21 +154,19 @@ pre
   white-space: pre
   text-align: left
 
+pre > code
+  padding: 0
+
 
 // Quotes
 //============================================
 
 blockquote
-  padding-left: 1.5rem
-  border-left: .1rem solid $gray
-  font-style: italic
+  color: $gray-dark
+  font-weight: 400
+  font-size: 2.827rem
+  line-height: 1.3
+  text-align: center
 
 q
   quotes: "\201C" "\201D" "\2018" "\2019"
-
-
-// Footnotes
-//============================================
-
-.footnotes
-  font-size: $fs-sm
