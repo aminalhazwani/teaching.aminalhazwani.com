@@ -5,67 +5,106 @@ day:     "Tue, March 8"
 time:    "2 PM - 4 PM"
 meta:    "Let's dive in the magical world of web design. We set the initial basis for the course with an introduction on the subject followed by policies and information"
 current: true
+visible: true
 ---
 
-## A Dao of Web Design [^1]
+## What it means to design for the web today?
 
-Relationship between the printed page and the web (the browser, our canvas)
+In order to understand how to design for the web we could look at how everything started back in the day. In 1989, Sir. [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) proposed to create a global hypertext project, which later became known as the World Wide Web.[^1]
+The web is an open source information space where documents and other web resourses are identified by URLs, interlinked by hypertextx links, and can be accessed via the [Internet](https://en.wikipedia.org/wiki/Internet).
 
-> It’s time to really understand the relationship between the parent and the child, and to let the child go its own way in the world.
+At the beginning the web was composed by _text-only pages_ that could be viewed using a simple line-mode browser. As designers I think it's crucial to focus on the idea of text-only pages; to the browser every website is a unique file of text. 
 
-> The web is a new medium, although it has emerged from the medium of printing, whose skills, design language and conventions strongly influence it.
-— John Allsopp
+This is how the very first website looked:
 
-The technology is pretty young and therefor eager to new explorations and experiments. We should not constrain ourselves by the heritage of Desktop Publishing.
+![The look of the very first website](../uploads/2016/03/first-website.jpg)
 
-> We need to understand which of these lessons are appropriate for the web, and which mere rituals.
+And this is how it looks today (yes, it's still on-line and yes, it almost mobile ready!)
 
-Designers usually want to control everything, something which is commonly know on the web as "pixel perfection" but 
+![The look of the first website today](../uploads/2016/03/first-website-today.jpg)
 
-> we need to rethink this role, to abandon control, and seek a new relationship with the page.
+So, the web is a pretty young. It's still a fairly new medium, that has emerged from the medium of printing, whose skills, design language and conventions strongly influence it. But in the words of John Allsopp we need to understand which of thse lessons are appropiate for the web, and which mere rituals.
 
-> Make pages which are accessible, regardless of the browser, platform or screen that your reader chooses or must use to access your pages.
+> We are not designing pages but systems of components
 
-> The web’s greatest strength, I believe, is often seen as a limitation, as a defect. It is the nature of the web to be flexible, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are accessible to all.
+This is often seen as a limitation. It is the nature of the web to be _flexible_, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are _accessible_ to all.[^2]
 
-## Responsive Web Design: Missing the Point [^2]
+So how can we be flexible? Well, first of all we must forget about pixel-perfection. 
 
-> The point of creating adaptive sites is to create functional (and hopefully optimal) user experiences for a growing number of web-enabled devices and contexts
+![An undecided designer moving up and down by 1px his or her design](../uploads/2016/03/pixel-perfect.gif)
 
-## For a future-friendly web [^3]
+Designers usually want to control everything but we need to rethink this role, to abandon control, and seek a new relationship with the page.
 
-> The web is not one-dimensional
+> Make pages which are _accessible_, regardless of the browser, platform or screen that your _reader_ chooses or must use to access your pages.
 
-> The power of the web is its ubiquitousness
+How can we be accesible? By embracing flexibility: the web wasn't design to be constrained by a single context.
 
-> We need to reconsider the content we create and the context in which people interact with our content
+So, using some explenatory images from [Brad Frost](http://bradfrost.com/blog/web/for-a-future-friendly-web/) we could say that this is how the old contects looked:
 
->  We need to respect people's time and give them relevant, purposeful content without the extra cruft.
+![Old context and usage of the web rapresentation](../uploads/2016/03/old-context.jpg)
 
-> Content like water. Think of your core content as a fluid thing that gets poured into a huge number of containers. 
+And this is how the new(actual) context looks:
 
-> Mobile is more than just a smaller screen
+![New context and usage of the web rapresentation](../uploads/2016/03/new-context.jpg)
 
-> The combination of mobile-first and responsive web design is a good idea.
+It can look scary but actually the power of the web is its _ubiquity_. But how can we respond and design to such different scenarios?
 
-> Progressive enhancement plays an essential role in future-friendly design.
+## Responsive Web Design
 
-> Design for touch
+One of the best practises to overcome all these different contexts is responsive web design. This metodology was first defined by Ethan Marcotte with an article on [A List Apart](http://alistapart.com/article/responsive-web-design). The approach is describe by these three rules:
 
-## Responsive Web Design: What It Is and How To Use It [^4]
+- _Fluid grids_ that ebb and flow with a devices’ screen size
+- _Flexible images_ and media that keep content intact on any resolution
+- Media queries allowing designs to _adapt_ by establishing dimension breakpoints
 
-> Responsive Web design is the approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation
+### Fluid grids
 
-## Mobile first [^5]
+Fluids grids are a grid system that change and morph across different screen size. For example if a grid system is composed by 8 coulumns on a large screen will collapse to a 4 columns system on a smaller display.
 
-> Mobile forces you to focus: Mobile devices require software development teams to focus on only the most important data and actions in an application. You have to prioritize.
+### Flexible images
 
+Flexible images and media are assets that adapt to the resolution of the device delivering the optimal source for every situation. For example when you access yhe contents from a smaller device the images are not cut out.
 
+### Media queries
 
+A media query is an expression that limits the scope of your styles sheets. Breakpoints help you define where a media query starts and where it ends. For example you could say how big an image can be above or below a certain breakpoint scoping its size within certain resolutions. 
 
-[^1]: http://alistapart.com/article/dao
-[^2]: http://bradfrost.com/blog/web/responsive-web-design-missing-the-point/
-[^3]: http://bradfrost.com/blog/web/for-a-future-friendly-web/
-[^4]: https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/
-[^5]: http://www.lukew.com/ff/entry.asp?933
+> Responsive web design is the approach that suggests that design and development should respond to the user's behavior and environment based on the screen size, platform and orientation.
 
+Summarizing, this is how the web looked: 
+
+![Image that shows an old PC](../uploads/2016/03/this-is-not-the-web.jpg)
+
+This is how it looks:
+
+![Image that shows multiple device like smartphones, tablets and laptops](../uploads/2016/03/this-is-the-web.jpg)
+
+And this how it will look:
+
+![Image that shows multiple device like smartphones, tablets, laptops, smartwatch, cars, fridges, and many more](../uploads/2016/03/this-will-be-the-web.jpg)
+
+As designers we must acknowledge and embrace _unpredictability_ because nobody knows where the device landscape is going to be. By being _responsive_ we not only serve the current range of devices but we work for also for unforeseen contexts. 
+
+![Sergey Brin wearing a pair of google glasses](../uploads/2016/03/google-glasses.jpg)
+
+## Workshop #1 
+
+Let's try to identify the three criteria that define a responsive project. Choose a website of your preference. Look at it not as a reader but as a designer. Identify breakpoints, media queries and fluid grids. Make a screenshot of each media query and make the grid structure visible.
+
+![A gif that shows breakpoints and media queries of bostonglobe.com](../uploads/2016/03/boston-globe-responsive.gif)
+
+## From discussion in class
+
+- [Spiegel.de](http://www.spiegel.de/)
+- [Apple.com](http://www.apple.com/)
+- [WTF Mobile Web](http://wtfmobileweb.com/)
+- [Why Japanese Web Design Is So… Different](http://randomwire.com/why-japanese-web-design-is-so-different/)
+- [Way Back Machine](http://archive.org/web/)
+- [Awesome Screenshot Chrome Extension](https://www.awesomescreenshot.com/)
+- [Flashes - Il Post](http://flashes.ilpost.it/)
+- [Fatherly.com](http://wordisborn.fatherly.com/)
+- [Bostonglobe.com](http://www.bostonglobe.com/)
+- [Sublime Text 3](https://www.sublimetext.com/3)
+
+[^1]: [https://en.wikipedia.org/wiki/World_Wide_Web](https://en.wikipedia.org/wiki/World_Wide_Web)
+[^2]: [http://alistapart.com/article/dao](http://alistapart.com/article/dao)

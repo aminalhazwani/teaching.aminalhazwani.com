@@ -7,3 +7,4 @@ meta:   "What are the steps in the development of our product idea? How to trans
 ---
 
 - http://goodui.org/
+- https://github.com/adactio/Pattern-Primer
