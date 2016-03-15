@@ -4,7 +4,6 @@ title:   "Web Design 101 - Part 1"
 day:     "Tue, March 8"
 time:    "2 PM - 4 PM"
 meta:    "Let's dive in the magical world of web design. We set the initial basis for the course with an introduction on the subject followed by policies and information"
-current: true
 visible: true
 ---
 
@@ -19,11 +18,11 @@ This is how the very first website looked:
 
 ![The look of the very first website](../uploads/2016/03/first-website.jpg)
 
-And this is how it looks today (yes, it's still on-line and yes, it almost mobile ready!)
+And this is how it looks today (yes, it's still on-line and yes, it's almost mobile ready!)
 
 ![The look of the first website today](../uploads/2016/03/first-website-today.jpg)
 
-So, the web is a pretty young. It's still a fairly new medium, that has emerged from the medium of printing, whose skills, design language and conventions strongly influence it. But in the words of John Allsopp we need to understand which of thse lessons are appropiate for the web, and which mere rituals.
+So, the web is pretty young. It's still a fairly new medium, that has emerged from the medium of printing, whose skills, design language and conventions strongly influence it. But in the words of John Allsopp we need to understand which of thse lessons are appropiate for the web, and which mere rituals.
 
 > We are not designing pages but systems of components
 

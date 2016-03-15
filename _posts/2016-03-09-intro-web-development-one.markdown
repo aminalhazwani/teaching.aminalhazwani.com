@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Introduction to web development - Part 1"
+title:  "Intro to web development - Part 1"
 day:    "Wed, March 9"
 time:   "10 AM - 12 PM"
-meta:   "If you design for the web it's good to know how the techonology behind it works. In this lecture we have a first introduction to HTML documents together with the setup of our machine for web development"
-current: true
+meta:   "If you design for the web it's good to know how the technology behind it works. In this lecture we setup of our machine for web development, we go through a first introduction to HTML documents together with the a small start of CSS"
 visible: true
 ---
 
@@ -195,8 +194,3 @@ To simplify working with the box model, include the following code at the beginn
 - Hexadecimal (describes the RGB value as 3 consecutive hexadecimal numbers #rrggbb): `color: #ff00ba` In this case `ff` is the red value, `00` green, and `ba` blue
 - RGB (a different way of writing RGB colors, with decimal numbers, from 0 to 255 for red, green and blue instead of hex numbers): `color: rgb(34, 12, 64);`
 - RGBA (exactly the same as the previous, but additionally, the opacity of the color can be defined with the last parameter): `color: rgba(34, 12, 64, 0.3);`
-
-<!-- [^1]: [Responsive web design basics: set the viewport](https://developers.google.com/web/fundamentals/design-and-ui/responsive/fundamentals/set-the-viewport?hl=en) -->
-
-
-
