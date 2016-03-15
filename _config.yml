@@ -1,8 +1,16 @@
 # Site settings
 title: Web and Media Design Course · Amin Al Hazwani
-description: Selvage distillery beard everyday carry, heirloom man braid freegan DIY asymmetrical kickstarter trust fund shoreditch pickled fanny pack.
+description: This is the repository for the course in Web and Media Design offered by the MA in Eco-Social Design of the Free University of Bolzano. Following you can find the calendar of the upcoming lectures and topics.
 url: "http://teaching.aminalhazwani.com" # the base hostname & protocol for your site
-permalink: pretty
+permalink: "/:title/"
 
 # Build settings
-markdown: kramdown
+future: bool
+
+# File exclusion
+exclude: [
+  "Gemfile", 
+  "Gemfile.lock",
+  "README.md",
+  "s3_website.yml"
+]

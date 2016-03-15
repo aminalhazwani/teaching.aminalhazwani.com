@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "UI Design"
+day:    "Tue, April 19"
+time:   "10 AM - 12 PM"
+meta:   "What are the steps in the development of our product idea? How to translate and communicate effectively our desing decision? Simple – with wireframes, visual inventories, and elements of collages"
+---
+
+- http://goodui.org/
+- https://github.com/adactio/Pattern-Primer

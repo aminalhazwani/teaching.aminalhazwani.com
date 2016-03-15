@@ -4,4 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Feel free to [write me](mailto:amin.alhazwani@gmail.com) an e-mail or contact me via the Slack channel `#webdesign` in our Slack team or via PM.
+
+The [repository](https://github.com/aminalhazwani/teaching.aminalhazwani.com) of this website is hosted on GitHub. If you have any question, feedback or critic feel free to [open an issue](https://github.com/aminalhazwani/teaching.aminalhazwani.com/issues/new)!
+
+Happy coding!

@@ -8,9 +8,11 @@
 .nav_item
   font-size: smaller
   color: $gray-dark
+  border-bottom: .2rem solid transparent
   +mq($bp-xs)
     letter-spacing: .1rem
 
+.nav_item:hover,
 .nav_item-current
-  border-bottom: 2px solid $color-text
+  border-bottom-color: $color-text
   color: $color-text

@@ -3,13 +3,13 @@ layout: index
 ---
 
 <div class="l-container">
-  <h1 class="u-push-top u-push-top-double@sm u-push-btm h2 h1@sm u-fw-light">Web and Media<br>Design Course</h1>
-  <h2 class="h3 u-fw-normal u-push-btm u-push-btm-double@md">Selvage distillery beard everyday carry, heirloom man braid freegan DIY asymmetrical kickstarter trust fund shoreditch pickled fanny pack.</h2 class="h3 u-fw-normal">
+  <h1 class="u-push-top u-push-top-double@sm u-push-btm h1 h-huge@sm">Web and Media<br>Design Course</h1>
+  <h2 class="h3 u-fw-normal u-push-btm u-push-btm-double@md">This is the repository for the course in Web and Media Design offered by the MA in Eco-Social Design of the Free University of Bolzano. Following you can find the calendar of the upcoming lectures and topics.</h2 class="h3 u-fw-normal">
 
   {% include navigation.html %}
 </div>
 
-<ul class="list-reset">
+<ul class="list list-reset">
   {% for post in site.posts reversed %}
     <li {% if post.current == true %}class="list_item-current"{% endif %}>
     <div class="l-container">
@@ -22,7 +22,11 @@ layout: index
           </div>
           <div class="g g-9@sm">
             <h3 class="u-push-btm-quarter u-push-btm-none@sm u-push-top-2@sm u-c-primary">
-              <a class="list_link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              {% if post.visible == true %}
+                <a class="list_link" href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
+              {% else %}
+              {{ post.title }}
+              {% endif %}
             </h3>
             <p class="u-push-btm-none">{{ post.meta }}</p>
           </div>
