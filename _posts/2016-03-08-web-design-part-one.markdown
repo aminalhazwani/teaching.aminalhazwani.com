@@ -10,7 +10,7 @@ visible: true
 ## What it means to design for the web today?
 
 In order to understand how to design for the web we could look at how everything started back in the day. In 1989, Sir. [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) proposed to create a global hypertext project, which later became known as the World Wide Web.[^1]
-The web is an open source information space where documents and other web resourses are identified by URLs, interlinked by hypertextx links, and can be accessed via the [Internet](https://en.wikipedia.org/wiki/Internet).
+The web is an open source information space where documents and other web resources are identified by URLs, interlinked by hypertext links, and can be accessed via the [Internet](https://en.wikipedia.org/wiki/Internet).
 
 At the beginning the web was composed by _text-only pages_ that could be viewed using a simple line-mode browser. As designers I think it's crucial to focus on the idea of text-only pages; to the browser every website is a unique file of text. 
 
@@ -22,7 +22,7 @@ And this is how it looks today (yes, it's still on-line and yes, it's almost mob
 
 ![The look of the first website today](../uploads/2016/03/first-website-today.jpg)
 
-So, the web is pretty young. It's still a fairly new medium, that has emerged from the medium of printing, whose skills, design language and conventions strongly influence it. But in the words of John Allsopp we need to understand which of thse lessons are appropiate for the web, and which mere rituals.
+So, the web is pretty young. It's still a fairly new medium, that has emerged from the medium of printing, whose skills, design language and conventions strongly influence it. But in the words of John Allsopp we need to understand which of these lessons are appropriate for the web, and which mere rituals.
 
 > We are not designing pages but systems of components
 
@@ -36,21 +36,21 @@ Designers usually want to control everything but we need to rethink this role, t
 
 > Make pages which are _accessible_, regardless of the browser, platform or screen that your _reader_ chooses or must use to access your pages.
 
-How can we be accesible? By embracing flexibility: the web wasn't design to be constrained by a single context.
+How can we be accessible? By embracing flexibility: the web wasn't design to be constrained by a single context.
 
-So, using some explenatory images from [Brad Frost](http://bradfrost.com/blog/web/for-a-future-friendly-web/) we could say that this is how the old contects looked:
+So, using some explanatory images from [Brad Frost](http://bradfrost.com/blog/web/for-a-future-friendly-web/) we could say that this is how the old contexts looked:
 
-![Old context and usage of the web rapresentation](../uploads/2016/03/old-context.jpg)
+![Old context and usage of the web representation](../uploads/2016/03/old-context.jpg)
 
 And this is how the new(actual) context looks:
 
-![New context and usage of the web rapresentation](../uploads/2016/03/new-context.jpg)
+![New context and usage of the web representation](../uploads/2016/03/new-context.jpg)
 
 It can look scary but actually the power of the web is its _ubiquity_. But how can we respond and design to such different scenarios?
 
 ## Responsive Web Design
 
-One of the best practises to overcome all these different contexts is responsive web design. This metodology was first defined by Ethan Marcotte with an article on [A List Apart](http://alistapart.com/article/responsive-web-design). The approach is describe by these three rules:
+One of the best practices to overcome all these different contexts is responsive web design. This methodology was first defined by Ethan Marcotte with an article on [A List Apart](http://alistapart.com/article/responsive-web-design). The approach is describe by these three rules:
 
 - _Fluid grids_ that ebb and flow with a devices’ screen size
 - _Flexible images_ and media that keep content intact on any resolution
@@ -58,11 +58,11 @@ One of the best practises to overcome all these different contexts is responsive
 
 ### Fluid grids
 
-Fluids grids are a grid system that change and morph across different screen size. For example if a grid system is composed by 8 coulumns on a large screen will collapse to a 4 columns system on a smaller display.
+Fluids grids are a grid system that change and morph across different screen size. For example if a grid system is composed by 8 columns on a large screen will collapse to a 4 columns system on a smaller display.
 
 ### Flexible images
 
-Flexible images and media are assets that adapt to the resolution of the device delivering the optimal source for every situation. For example when you access yhe contents from a smaller device the images are not cut out.
+Flexible images and media are assets that adapt to the resolution of the device delivering the optimal source for every situation. For example when you access the contents from a smaller device the images are not cut out.
 
 ### Media queries
 
@@ -82,7 +82,7 @@ And this how it will look:
 
 ![Image that shows multiple device like smartphones, tablets, laptops, smartwatch, cars, fridges, and many more](../uploads/2016/03/this-will-be-the-web.jpg)
 
-As designers we must acknowledge and embrace _unpredictability_ because nobody knows where the device landscape is going to be. By being _responsive_ we not only serve the current range of devices but we work for also for unforeseen contexts. 
+As designers we must acknowledge and embrace _unpredictability_ because nobody knows where the device landscape is going to be. By being _responsive_ we not only serve the current range of devices but we work for also the unforeseen contexts. 
 
 ![Sergey Brin wearing a pair of google glasses](../uploads/2016/03/google-glasses.jpg)
 

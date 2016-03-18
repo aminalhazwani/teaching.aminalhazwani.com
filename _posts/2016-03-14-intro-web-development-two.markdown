@@ -17,7 +17,7 @@ visible: true
 3. Search for "Material Theme"
 4. Press `enter`
 
-A new tab should open with the confermation of the just installed theme.
+A new tab should open with the confirmation of the just installed theme.
 
 1. Press `cmd` + `,` or `Preferences > Settings - User` (on Win/Linux) which opens the user settings
 2. Copy and paste `"theme": "Material-Theme.sublime-theme", "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme"` (pay attention to the commas)
