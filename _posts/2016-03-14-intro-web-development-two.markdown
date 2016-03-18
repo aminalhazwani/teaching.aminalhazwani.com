@@ -17,10 +17,12 @@ visible: true
 3. Search for "Material Theme"
 4. Press `enter`
 
-If the theme doesn't load:
+A new tab should open with the confermation of the just installed theme.
 
-1. Press `cmd` + `,` which opens the user settings
-2. Copy and paste `"theme": "Material-Theme.sublime-theme", "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme"`
+1. Press `cmd` + `,` or `Preferences > Settings - User` (on Win/Linux) which opens the user settings
+2. Copy and paste `"theme": "Material-Theme.sublime-theme", "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme"` (pay attention to the commas)
+
+You should now have your brand new Sublime Text theme. If you notice some graphical problems simply restart Sublime.
 
 ## Starting point
 
@@ -44,27 +46,27 @@ If the theme doesn't load:
 
 ## New HTML Tags
 
-- Header
+- **Header**<br>It represents a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, wrapped section's header, a search form, and so on.
 
 ```html
 <header>
   <img src="logo.gif" alt="Brand's logo">
-  <p>Tagline</p>
+  <h1>Brand's name</h1>
 </header>
 ```
 
-- Navigation
+- **Navigation**<br>It represents a section of a page that links to other pages or to parts within the page: a section with navigation links.
 
 ```html
 <nav>
-  <a href="/about/">About</a> |
-  <a href="/work/">Work</a> |
-  <a href="/contact/">Contact</a> |
+  <a href="/about/">About</a>
+  <a href="/work/">Work</a>
+  <a href="/contact/">Contact</a>
   <a href="/blog/">Blog</a>
 </nav>
 ```
 
-- Footer
+- **Footer**<br>It typically contains information about the author of the section, copyright data or links to related documents.
 
 ```html
 <footer>
@@ -73,7 +75,7 @@ If the theme doesn't load:
 </footer>
 ```
 
-- Section
+- **Section**<br>It represents a generic section of a document, i.e., a thematic grouping of content, typically with a heading. Each `<section>` should be identified, typically by including a heading (`<h1>-<h6>` element) as a child of the `<section>` element.
 
 ```html
 <section>
@@ -82,7 +84,7 @@ If the theme doesn't load:
 </section>
 ```
 
-- Article
+- **Article**<br>It represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). This could be a forum post, a magazine or newspaper article, a blog entry, an object, or any other independent item of content. Each `<article>` should be identified, typically by including a heading (`<h1>-<h6>` element) as a child of the `<article>` element.
 
 ```html
 <article>
@@ -91,7 +93,7 @@ If the theme doesn't load:
 </article>
 ```
 
-- Main
+- **Main**<br>It represents the main content of the `<body>` of a document or application. The main content area consists of content that is directly related to, or expands upon the central topic of a document or the central functionality of an application. This content should be unique to the document, excluding any content that is repeated across a set of documents such as sidebars, navigation links, copyright information, site logos, and search forms (unless the document's main function is as a search form).
 
 ```html
 <main>
@@ -116,23 +118,19 @@ If the theme doesn't load:
 </main>
 ```
 
+The HTML Tags descriptions are from the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+
 ## New CSS
 
-### Classes and Ids
+### Classes
 
-Classes and ids are identifiers which can be manually added to HTML in order to make it easier to style. Classes are generally used when many elements share the same styles, while ids should only be used for one element.
+Classes are identifiers which can be manually added to HTML in order to make it easier to style. Classes are generally used when many elements share the same styles.
 
 ```html
 <div class="class1 class2 class3">
   ...
 </div>
-
-<div id="id">
-  ...
-</div>
 ```
-
-**Note**: It's good practice not to use ids to style elements because they have a higher precedence than other selectors, which means overriding them can get messy.
 
 ### Pseudo-classes
 
@@ -147,18 +145,42 @@ selector:pseudo-class {
 For example:
 
 ```css
-a:hover {
-  color: green;
-}
-
-.widget:last-of-type {
-  margin-right: 0;
-}
-
-.container:nth-child {
-  margin-right: 0;
+p em:last-of-type {
+  color: lime;
 }
 ```
+
+```html
+<p>
+  <em>I'm not lime :(</em>
+  <strong>I'm not lime :(</strong>
+  <em>I'm lime :D</em>
+  <strong>I'm also not lime :(</strong>
+</p>
+
+<p>
+  <em>I'm not lime :(</em>
+  <span><em>I am lime!</em></span>
+  <strong>I'm not lime :(</strong>
+  <em>I'm lime :D</em>
+  <span><em>I am also lime!</em> <strike> I'm not lime </strike></span>
+  <strong>I'm also not lime :(</strong>
+</p>
+```
+
+There are many pseudo-classes avaiable like:
+
+- `:hover`
+- `:active`
+- `:focus`
+- `:first-child`
+- `:last-child`
+- `:nth-child`
+- `:first-of-type`
+- `:last-of-type`
+- ...and many more!
+
+For a full introduction on pseudo-classes I would suggest you to check the page on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes).
 
 ## Advanced selectors
 
@@ -188,22 +210,3 @@ text-align: center;
 margin-left: auto;
 margin-right: auto;
 ```
-
-### Display
-
-Defines the type of a box element:
-
-- Hide an element from the page: `display: none;`
-- Flow elements like a word in a paragraph (width, height and vertical margins cannot be set): `display: inline;`
-- Element does not flow (width, height and margins can be set freely): `display: block;`
-- Flow elements like a word in a paragraph (width, height and vertical margins can be set freely): `display: inline-block;`
-- Magic rainbow unicorns (more about it later): `display: flex;`
-
-### Position
-
-Specifies the type of positioning method used for an element:
-
-- Static: `position: static`
-- Relative: `position: relative;`
-- Absolute: `position: absolute;`
-- Fixed: `position: fixed;`
