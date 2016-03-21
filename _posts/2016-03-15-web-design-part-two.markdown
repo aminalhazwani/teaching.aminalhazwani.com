@@ -4,7 +4,6 @@ title:  "Web Design 101 - Part 2"
 day:    "Tue, March 16"
 time:   "2 PM - 4 PM"
 meta:   "In this lecture we consolidate our web design basis while talking about common practices such as progressive enhancement, mobile first and content first"
-current: true
 visible: true
 ---
 

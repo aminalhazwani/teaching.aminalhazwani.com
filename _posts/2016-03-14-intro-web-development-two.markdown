@@ -4,7 +4,6 @@ title:  "Intro to web development - Part 2"
 day:    "Tue, March 16"
 time:   "10 AM - 12 PM"
 meta:   "So, do you remember how to set a heading in HTML? And how to style a paragraph? Sure you do! During this lecture we review our HTML knowledge and we introduce new HTML tags and CSS properties"
-current: true
 visible: true
 ---
 
