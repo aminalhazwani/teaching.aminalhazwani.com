@@ -5,7 +5,46 @@ day:    "Tue, March 22"
 time:   "10 AM - 12 PM"
 meta:   "How can we effectively set the design strategy of our product? With tools like value proposition definition, <del>user stories and persona</del> and job stories that help us keep on track"
 current: true
+visible: true
 ---
+
+## Workshop #2 - Part two
+
+In this lecture we conclude our [previous workshop](http://teaching.aminalhazwani.com/web-design-part-two/#workshop-2) about establishing design direction. The second exercise we conduct is about defining the content and the user feelings for our portfolio homepage.
+
+### Brainstorm homepage content
+
+We brainstorm in 5 minutes all the possible content that we think are relevant for our portfolio website and note them down on post-its.
+
+### List homepage user feelings
+
+Afterwards we list in 5 minutes how we would like users to feel when they visit our page. It's important to focus especially on adjectives. 
+
+### Vote
+
+Each of us gets 10 votes. 5 for the contents and 5 for the user feelings. This are the most voted _content_ in no particular order:
+
+- Logo
+- Name
+- Menu
+- Projects/Pictures
+- Contact
+
+And this the most-voted _user feelings_ in no particular order: 
+
+- Curious
+- Inspired
+- Welcomed
+- Playful
+- Engaged
+
+If you are curious to see the full lists feel free to [check the spreadsheet](#)*. In the next coding lecture we implement the markup with this content in mind and start to style it trying to respect the selection of user feelings.
+
+*link is coming soon
+
+## Design Strategy
+
+In this lecture we learn how we can effectively set the design strategy of our product. Tools like value proposition definition, <del>user stories and persona</del> and job stories help us keep our project on track.
 
 ## Value Proposition
 
@@ -69,7 +108,11 @@ It is very interesting to see how Evernote covers all the elements in their valu
 
 ## <del>User stories</del> Job stories
 
-Usually when you have to define a product feature you tend to develop a _user story_ together with a _persona_. The user story describes the type of user, what they want to do and why. It's a method that helps you create a simplified description of a requirement. But recently user stories (together with persona) have been questioned because they are based on too many assumptions. The reason behind these doubts is that when building a user story (As a [type of user], I want [some action], so that [outcome]) there's no room to ask 'why'— you're essentially locked into a particular sequence with no context.[^3]
+Usually when you have to define a product feature you tend to develop a _user story_ together with a _persona_. The user story describes the type of user, what they want to do and why. It's a method that helps you create a simplified description of a requirement. The persona is a imaginary customer defined by attributes generally in the form of demographics.
+
+![Persona](../uploads/2016/03/persona.jpg)
+
+But recently user stories (together with persona) have been questioned because they are based on too many assumptions. The reason behind these doubts is that when building a user story (As a [type of user], I want [some action], so that [outcome]) there's no room to ask 'why'— you're essentially locked into a particular sequence with no context.[^3]
 
 ![Assumptions and disconnect between there persona and action](../uploads/2016/03/user-story.jpg)
 
