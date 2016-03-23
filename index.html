@@ -23,7 +23,7 @@ layout: index
           <div class="g g-9@sm">
             <h3 class="u-push-btm-quarter u-push-btm-none@sm u-push-top-2@sm u-c-primary">
               {% if post.visible == true %}
-                <a class="list_link" href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
+                <a class="list_link" href="{{ post.url }}">{{ post.title }}</a>
               {% else %}
               {{ post.title }}
               {% endif %}
