@@ -4,7 +4,6 @@ title:  "Design Strategy"
 day:    "Tue, March 22"
 time:   "10 AM - 12 PM"
 meta:   "How can we effectively set the design strategy of our product? With tools like value proposition definition, <del>user stories and persona</del> and job stories that help us keep on track"
-current: true
 visible: true
 ---
 
