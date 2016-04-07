@@ -167,7 +167,7 @@ p em:last-of-type {
 </p>
 ```
 
-There are many pseudo-classes avaiable like:
+There are many pseudo-classes available like:
 
 - `:hover`
 - `:active`

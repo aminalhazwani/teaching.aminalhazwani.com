@@ -37,9 +37,7 @@ And this the most-voted _user feelings_ in no particular order:
 - Playful
 - Engaged
 
-If you are curious to see the full lists feel free to [check the spreadsheet](#)*. In the next coding lecture we implement the markup with this content in mind and start to style it trying to respect the selection of user feelings.
-
-*link is coming soon
+If you are curious to see the full lists feel free to [check the spreadsheet](https://docs.google.com/spreadsheets/d/1qQ6d6Ve41BGusYhA5OEJFFd4uIyiR_5R_nBfhX8JDKQ/edit?usp=sharing). In the next coding lecture we implement the markup with this content in mind and start to style it trying to respect the selection of user feelings.
 
 ## Design Strategy
 

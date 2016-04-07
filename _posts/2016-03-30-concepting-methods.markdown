@@ -4,9 +4,10 @@ title:  "Concepting Methods"
 day:    "Thu, March 31"
 time:   "11 AM - 1 PM"
 meta:   "How can we conceptualize and better define our product idea? There are some tools like mood boards, storyboards and user flows definition that help us along the way"
-current: true
 visible: true
 ---
+
+Concepting methods are particularly useful in the early stages of your project. On one hand they help you set the initial look and visual language of your product idea – you can make several design exploration in a short amount of time. And on the other they help your colleagues and your clients understand the visual direction you want to follow. 
 
 ## Mood boards
 
@@ -18,7 +19,7 @@ They are also useful with clients because if they haven't been very forthcoming 
 
 > A picture is worth a thousand words, and mood boards are a great tool to create that picture for your client. 
 
-Mood boards are extremely useful for establishing the aesthetic feel of a web site. It usually fits into the process somewhere after the content definition. When you know the type of content and the contexts it's easier to find the most appropriate visual language to reinforce and communicate it. Things that can be explored in the mood board include photography style, color palettes, typography, patterns, and the overall look and feel of the site.[^2]
+Mood boards are extremely useful for establishing the aesthetic feel of a website. It usually fits into the process somewhere after the content definition. When you know the type of content and the contexts it's easier to find the most appropriate visual language to reinforce and communicate it. Things that can be explored in the mood board include photography style, color palettes, typography, patterns, and the overall look and feel of the site.[^2]
 
 ## Style Tiles
 
@@ -44,7 +45,7 @@ Taking as example the [visual inventory](https://speakerdeck.com/danielmall/sift
 
 ## Storyboards
 
-Storyboards help you visualize a consumer story by defining a series of action they he or she would need to satisfy their need while using your product. It's useful because it places features and functionalities in real-life situations that involve place, people, and other potentially informative ambient artifacts. You can often learn unexpected things from storyboards, and embedding that context into your design efforts helps keep them grounded in the reality of the users' lives.[^4]
+Storyboards help you visualize a consumer story by defining a series of action they do to satisfy their need while using your product. It's useful because it places features and functionalities in real-life situations that involve place, people, and other potentially informative ambient artifacts. You can often learn unexpected things from storyboards, and embedding that context into your design efforts helps keep them grounded in the reality of the users' lives.[^4]
 
 ![A storyboard that illustrates how to find a close bus stop](../uploads/2016/03/storyboard.jpg)
 

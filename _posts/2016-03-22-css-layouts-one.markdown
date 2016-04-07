@@ -26,7 +26,7 @@ In this lecture we write the markup for the content that we defined in the [prev
 
 ### Add header content
 
-As discussed in the workshop we decide that is important for us to display our logo and name on the porfolio site. For this kind of content the `<header>` tag suits perfectly our need.
+As discussed in the workshop we decide that is important for us to display our logo and name on the portfolio site. For this kind of content the `<header>` tag suits perfectly our need.
 
 ```html
 <body>
@@ -39,7 +39,7 @@ As discussed in the workshop we decide that is important for us to display our l
 
 ### Add menu
 
-In order to add a menu to our portfolio website we could use the `<nav>` tag to list all the avaiable pages.
+In order to add a menu to our portfolio website we could use the `<nav>` tag to list all the available pages.
 
 ```html
 <body>
@@ -54,7 +54,7 @@ In order to add a menu to our portfolio website we could use the `<nav>` tag to 
 
 ### Add main content
 
-It's important for our porfolio to diplays our projects with related pictures. So we could wrap them all in a `<section>` and then each singular project could use the `<article>` tag.
+It's important for our portfolio to display our projects with related pictures. So we could wrap them all in a `<section>` and then each singular project could use the `<article>` tag.
 
 ```html
 <body>
