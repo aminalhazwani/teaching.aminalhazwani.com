@@ -4,7 +4,6 @@ title:  "Web Typography"
 day:    "Tue, April 12"
 time:   "10 AM - 12 PM"
 meta:   "Websites are 90% typography and 90% white space. We see how to set the typography for our product in order to get the best reading experience possible"
-current: true
 visible: true
 ---
 

@@ -1,0 +1,129 @@
+---
+layout: post
+title:  "UI Design"
+day:    "Thu, April 21"
+time:   "11 AM - 1 PM"
+meta:   "What are the steps in the development of our product idea? How to translate and communicate effectively our design decision? Simple – with wireframes, elements of collages and pattern libraries"
+visible: true
+---
+
+## Whiteboarding
+
+Whiteboarding helps you get a sense of what the screen and/or interface is gonna do. You can see a lot of options very quickly and see which one of them makes more sense. 
+
+![Whiteboard with sketched app screen](../uploads/2016/04/whiteboarding.jpg)
+
+It shouldn't take you more than 30 seconds to layout and display an interface idea and the advantage of whiteboarding is the high-amount of interaction you can do in a short amount of time. Consider it like a sort of brainstorming for interfaces. There is no right or wrong, the main goal is to sketch down as many ideas as possible.
+
+## Wireframes
+
+A wireframe is a two-dimensional illustration of a page interface that specifically focuses on space allocation and prioritization of content, functionalities available, and intended behaviors. For these reasons, wireframes typically do not include any styling, color, or graphics. Wireframes also help establish relationships between a website various templates.[^1]
+
+### The value of wireframes
+
+Wireframes can help you in many different ways:
+
+- They connect the information architecture to the visual style
+- You consistently display similar type of information
+- You define intended features in the interface
+- You prioritize content based on the available space
+
+![Low fidelity wireframe](../uploads/2016/04/low-fidelity-wireframe.jpg)
+
+### Creating wireframes
+
+The basis to create a good wireframe are fairly simple:
+
+- No colors. They will come at a later point in your style explorations.  
+- No images. Use placeholders instead, like a crossed box.
+- Use typography styles only for hierarchy manners. So play with sizes and spaces but not with typefaces.
+
+### Types of wireframes
+
+Wireframes can be develop in different ways: from pen and paper to computer-drawn. But we can group them basically in two sections:
+
+- Low-fidelity wireframes that are relatively quick to develop and focus on team communication. They often do not include any text but placeholders like lines or _Lorem ipsum_.
+- High-fidelity wireframes that are more time-consuming but facilitate communication with clients and non-designers people involved in the development of the project.
+
+![High fidelity wireframe](../uploads/2016/04/high-fidelity-wireframe.jpg)
+
+## Element collages
+
+A full comp often requires ideas to be fully realized. And element collage allows you to document a thought at any state of realization and move on to the next. So, how can we design deliverables for a post-comp era? Today with responsive web design and thousand of devices it's our job to create experience that are accessible everywhere.
+
+Usually clients want to see how a website or an app looks like. So what you do is to develop a composition for the homepage and one for interior page. But what also often happen is that you have to present multiple directions so maybe you make three proposal for each of this page.
+
+![Design for a post-comp era](../uploads/2016/04/post-comp-era-1.jpg)
+
+If you are lucky they choose one direction but most of the times they will ask you to mash-up all the directions together. So after this step you do a second round based on their initial feedback. And maybe even a third round based on small details and further client feedbacks. Finally, once they are happy the result, the interaction continues. Because you worked on desktop comp and they could ask you about mobile, tablet and even TV.
+
+![Design for a post-comp era](../uploads/2016/04/post-comp-era-2.jpg)
+
+And the biggest drawback: we haven't even coded the whole thing! Element collages help you just do that in different ways:
+
+- They give you the highest fidelity in the quickest amount of time
+- All deliverables lead to conversation
+- You and your client can replace "sign off" with "go one"
+
+So how to build a element collages. Based on the stories you spontaneously design elements that could fit on your client website. You're not developing a full-comp so if you don't have any idea for the footer you can leave it out. You just design the components that naturally comes out of your mind, just what you are more passionate about. Finally you layout all your elements on a single canvas and you embed that image in an HTML page. 
+
+![Techcrunch element collages](../uploads/2016/04/element-collage-example-2.jpg)
+
+And the best feedback you could get is something like this:
+
+> "Obviosly this isn't a website, but I see how it could be one"[^2]
+
+You invite clients to focus on things like mood and atmosphere. Things where they can really help you design better experiences. You don't lead the conversation in the wrong direction like design details that should rightfully be solved by the designer, which is the expert in the conversation. You prompt for feedback about _art direction_, not _design_.
+
+![Earthy pigments element collages](../uploads/2016/04/element-collage-example-3.jpg)
+
+## Pattern libraries
+
+In order to understand what a pattern library is we should introduce the concept of atomic design defined the amazing by [Brad Frost](http://bradfrost.com/blog/post/atomic-web-design/). As the web design world continues to grow we are seeking for new methods and approaches that help us develop thoughtful design system that are flexible enough to satisfy the continuous growing offer of device able to access the web.
+
+### Atomic design
+
+It is a methodology that builds and deconstruct web components in an atomic-manner. There are five distinctive level:
+
+- Atoms
+- Molecules
+- Organisms
+- Templates
+- Pages
+
+### Atoms
+
+They are the HTML tags like an `h1`, the smallest entities on a web page. Such as a form label, an input field or a button.
+
+![Example of atoms](../uploads/2016/04/atoms.jpg)
+
+Atoms include also abstract elements like colors or fonts.  
+
+### Molecules
+
+Molecules are groups of atoms bounded together. And they serve as skeleton for our design system.
+
+![Example of molecule](../uploads/2016/04/molecule.jpg)
+
+### Organisms
+
+When we combine molecules together we form organism. An organism is a complex, distinct section of an interface. For example a masthead consist of diverse components like a logo, a primary navigation, a search form. 
+
+![Example of organism](../uploads/2016/04/organism.jpg)
+
+### Templates
+
+Templates consist mostly of groups of organisms stitched together to form pages. It's where we are able to see components in action being arrange in layouts. Templates are also where clients start seeing the final design in place.
+
+![Example of template](../uploads/2016/04/template.jpg)
+
+### Pages
+
+Pages are specific instances of templates. It means that placeholder content is replaced with real representative content. 
+
+![Example of page](../uploads/2016/04/page.jpg)
+
+
+
+[^1]: [Wireframing on usability.gov](http://www.usability.gov/how-to-and-tools/methods/wireframing.html)
+[^2]: [Design deliverables for a post-comp era](http://typecast.com/seminars/post-comp)

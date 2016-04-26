@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Web Development (TBD)"
+title:  "How to Sketch!"
 day:    "Tue, May 17"
 time:   "2 PM - 4 PM"
-meta:   "Most probably we continue with our web development course. Learning and understanting new CSS properties and possible approaches"
+meta:   "Sketch.app is an amazing software that allows you to fast design and communicate your design ideas. We see how to take advantage of its most famous features."
 ---

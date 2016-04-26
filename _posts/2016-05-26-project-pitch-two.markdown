@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Project Pitch - Part 2"
+title:  "Support and review"
 day:    "Thu, May 26"
 time:   "2 PM - 4 PM"
-meta:   "Let's all pitch your final assignment ideas. Give constructive feedbacks to each other and better define your final project for our course"
+meta:   "Do you need help? Are you looking for feedbacks? Or even better do you want to help with an external view? Come and support you collueges. We talk about both your semester project or your final assignment"
 ---
