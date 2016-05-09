@@ -17,13 +17,32 @@
 .content a
   text-decoration: underline
 
-// Images
+
+// Figure
+//============================================
+
+.content figure
+  margin: 0 0 $space 0
+
+
+// Images and videos
 //============================================
 
 .content img,
 .content iframe
+.content video
   display: block
   margin: 0 auto $space auto
+
+.content video
+  max-width: 100%
+
+.content figcaption
+  margin-top: -$space-half
+  font-size: smaller
+  font-style: italic
+  color: $gray-dark
+  text-align: center
 
 
 // Footnotes
