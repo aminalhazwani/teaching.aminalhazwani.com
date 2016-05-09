@@ -4,7 +4,6 @@ title:  "Motion with Meaning: Semantic Animation in Interface Design"
 day:    "Thu, April 28"
 time:   "11 AM - 1 PM"
 meta:   "Animation is fast becoming an essential part of interface design, and it’s easy to see why. It gives us a whole new dimension to play with—time. This creates opportunities to make our interfaces better at every level: it can make them easier to understand, more pleasant to use, and nicer to look at."
-current: true
 visible: true
 ---
 

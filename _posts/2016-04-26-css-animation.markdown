@@ -4,7 +4,6 @@ title:  "CSS animantion and transition"
 day:    "Tue, April 26"
 time:   "10 AM - 12 PM"
 meta:   "The Level 3 CSS specifications give us some dope super powers. Now we can smoothly animate and transition elements in our page delivering a better experience"
-current: true
 visible: true
 ---
 

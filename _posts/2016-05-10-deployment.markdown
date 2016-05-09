@@ -3,7 +3,8 @@ layout: post
 title:  "Git and Deployment"
 day:    "Tue, May 10"
 time:   "11 AM - 1 PM"
-meta:   "Let's put our project in the open, let's deploy it and push the code online. We see how we can use the free service for website hosting offered by GitHub Pages"
+meta:   "Let's put our project in the open, push it to the open-source code platform GitHub and deploy it with their free hosting service called GitHub Pages"
+current: true
 ---
 
 ## Text Indent
