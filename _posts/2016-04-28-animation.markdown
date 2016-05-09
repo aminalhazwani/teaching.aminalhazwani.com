@@ -7,7 +7,7 @@ meta:   "Animation is fast becoming an essential part of interface design, and i
 visible: true
 ---
 
-_**DISCLAIMER** This article was originally post it on A List Apart. Feel free to read it here or [there](http://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design). If you are interested in the discussion [read the comments](http://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design#comments) on their website._
+_**DISCLAIMER** This article was originally published on A List Apart. Feel free to read it here or [there](http://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design). If you are interested in the discussion [read the comments](http://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design#comments) on their website._
 
 For example, animation can help [offload some of the work (PDF)](https://www.cs.umd.edu/hcil/jazz/learn/papers/CS-TR-3964.pdf) of processing interface changes from our brains to the screen. It can also be used to explain the meaning and relationships of interface elements, and even teach users how to do things—all without making an interface more complex.
 
