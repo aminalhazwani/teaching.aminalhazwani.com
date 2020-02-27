@@ -1,7 +1,7 @@
 # Site settings
 title: Web and Media Design Course · Amin Al Hazwani
 description: This is the repository for the course in Web and Media Design offered by the MA in Eco-Social Design of the Free University of Bolzano. Following you can find the calendar of the upcoming lectures and topics.
-url: "http://teaching.aminalhazwani.com" # the base hostname & protocol for your site
+url: "https://aminalhazwani.com/teaching.aminalhazwani.com" # the base hostname & protocol for your site
 permalink: "/:title/"
 
 # Build settings
