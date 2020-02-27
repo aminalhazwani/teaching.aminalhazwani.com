@@ -11,28 +11,30 @@ layout: index
 
 <ul class="list list-reset">
   {% for post in site.posts reversed %}
-    <li {% if post.current == true %}class="list_item-current"{% endif %}>
-    <div class="l-container">
-      <div class="u-padd-top u-padd-btm list_item">
-        <div class="g-row">
-          <div class="g g-3@sm">
-            <p class="u-ibl u-blk@sm u-push-btm-quarter u-push-btm-none@sm u-push-top-4@sm">{{ post.day }}</p>
-            <span class="u-hide@sm">·</span>
-            <p class="u-ibl u-blk@sm u-push-btm-quarter u-push-btm-none@sm">{{ post.time }}</p>
-          </div>
-          <div class="g g-9@sm">
-            <h3 class="u-push-btm-quarter u-push-btm-none@sm u-push-top-2@sm u-c-primary">
-              {% if post.visible == true %}
-                <a class="list_link" href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
-              {% else %}
-              {{ post.title }}
-              {% endif %}
-            </h3>
-            <p class="u-push-btm-none">{{ post.meta }}</p>
+    {% if post.hide != true %}
+      <li {% if post.current == true %}class="list_item-current"{% endif %}>
+      <div class="l-container">
+        <div class="u-padd-top u-padd-btm list_item">
+          <div class="g-row">
+            <div class="g g-3@sm">
+              <p class="u-ibl u-blk@sm u-push-btm-quarter u-push-btm-none@sm u-push-top-4@sm">{{ post.day }}</p>
+              <span class="u-hide@sm">·</span>
+              <p class="u-ibl u-blk@sm u-push-btm-quarter u-push-btm-none@sm">{{ post.time }}</p>
+            </div>
+            <div class="g g-9@sm">
+              <h3 class="u-push-btm-quarter u-push-btm-none@sm u-push-top-2@sm u-c-primary">
+                {% if post.visible == true %}
+                  <a class="list_link" href="{{ post.url }}">{{ post.title }}</a>
+                {% else %}
+                {{ post.title }}
+                {% endif %}
+              </h3>
+              <p class="u-push-btm-none">{{ post.meta }}</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    </li>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>

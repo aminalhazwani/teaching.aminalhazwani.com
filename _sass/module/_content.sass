@@ -6,32 +6,50 @@
 // Typography
 //============================================
 
-// .content
-//   p
-//     +mq($bp-sm)
-//       font-size: 1.8rem
-//     +mq($bp-md)
-//       font-size: 2rem
+.content
+  h2:not(:first-of-type)
+    margin-top: $space-double
+
 
 // Links
 //============================================
 
-.content
-  p > a,
-  ul > li > a
-    text-decoration: underline
+.content a
+  text-decoration: underline
 
-// Images
+
+// Figure
 //============================================
 
-.content
-  p > img
-    display: block
-    margin: 0 auto
+.content figure
+  margin: 0 0 $space 0
+
+
+// Images and videos
+//============================================
+
+.content img,
+.content iframe
+.content video
+  display: block
+  margin: 0 auto $space auto
+
+.content video
+  max-width: 100%
+
+.content figcaption
+  margin-top: -$space-half
+  font-size: smaller
+  font-style: italic
+  color: $gray-dark
+  text-align: center
 
 
 // Footnotes
 //============================================
+
+.footnote
+  text-decoration: none!important
 
 .footnotes
   font-size: $fs-sm
